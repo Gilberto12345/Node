@@ -1,0 +1,22 @@
+{
+  "name": "nodejs-examples",
+  "version": "1.0.0",
+  "description": "Primeros pasos con nodejs",
+  "main": "server.js",
+  "dependencies": {
+    "colors": "^1.3.3",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "nodejs",
+    "curso",
+    "espaniol"
+  ],
+  "author": "Gilberto",
+  "license": "ISC"
+}
