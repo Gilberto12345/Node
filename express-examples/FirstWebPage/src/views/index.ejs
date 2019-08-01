@@ -1,14 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title><%= title %></title>
-</head>
+
+<% include partials/head %>
+
 <body>
 
-    <h1>Hola node <%= 5 + 5 %> </h1>
-    
+    <% include partials/navigation %>
+
+    <div class="container">
+
+        <div class="row mt-sm-4">
+            <div class="col-lg-12 text-center">
+                <img src="/img/norium.jpg" alt="Moruim Logo">
+            </div>
+        </div>
+
+    </div>
+
+    <div class="container-fluid bg-dark text-white p-5 text-center mt-sm-4" id="about">
+
+        <div class="row">
+
+            <div class="col-sm-6">
+
+                <i class="fab fa-facebook fa-10x"></i>
+
+            </div>
+            <div class="col-sm-6">
+
+                <h3>Trabajamos Inteligente para ti</h3>
+
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, molestias. Itaque id ipsa
+                    veritatis
+                    quia odit sequi aliquam dignissimos repellendus, error voluptate! Quidem fugit, officiis maiores
+                    voluptatibus eveniet cupiditate similique?</p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <% include partials/foot %>
+
+
+
 </body>
+
 </html>

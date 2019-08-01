@@ -13,6 +13,7 @@ app.set('view engine', 'ejs'); // express se entiende con ejs
 app.use(require('./routes/index'));
 
 // static fies
+app.use(express.static(path.join(__dirname, 'public')));
 
 // listening 
 app.listen(app.get('port'), () => {
